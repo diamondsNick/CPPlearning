@@ -23,5 +23,7 @@ int main(){
     changer(&a, &b);
     cout<<"a = "<<a<<"\n";
     cout<<"b = "<<b<<"\n";
+    cout<<"--------------------\n";
+    cout<<5+(*(&b));
     return 0;
 }
