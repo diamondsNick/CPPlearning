@@ -24,6 +24,13 @@ int main(){
     cout<<"a = "<<a<<"\n";
     cout<<"b = "<<b<<"\n";
     cout<<"--------------------\n";
-    cout<<5+(*(&b));
+    cout<<5+(*(&b))<<"\n";
+    cout<<"--------------------\n";
+    int *px = new int;
+    *px = 7;
+    cout<<"a = "<<a<<"\n";
+    delete px;
+    cout<<"--------------------\n";
+    cout<<"a = "<<a<<"\n";
     return 0;
 }
