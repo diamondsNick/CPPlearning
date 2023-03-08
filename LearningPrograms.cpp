@@ -27,7 +27,7 @@ int main(){
     cout<<5+(*(&b))<<"\n";
     cout<<"--------------------\n";
     int *px = new int;
-    *px = 7;
+    *px = a;
     cout<<"a = "<<a<<"\n";
     delete px;
     cout<<"--------------------\n";
